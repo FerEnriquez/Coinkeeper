@@ -1,0 +1,50 @@
+@font-face{
+    font-family: 'Raleway';
+    src: url('/src/fonts/ABeeZee-Regular.ttf');
+}
+@font-face{
+    font-family: 'Roboto';
+    src: url('/src/fonts/ABeeZee-Italic.ttf');
+}
+/****************************
+        TOTAL PART
+*****************************/
+.total_div {
+    position: absolute;
+    background-color: #e6e6e6;
+    height: 200px;
+    width: 600px;
+}
+.total_title {
+    font-family: 'Ralewa', Fallbacl, sans-serif;
+    text-align: center;
+    font-size: 40px;
+}
+.total_number {
+    font-family: 'Ralewa', Fallbacl, sans-serif;
+    text-align: center;
+    font-size: 50px;
+}
+/****************************
+        CHART PART
+*****************************/
+.chart_div{
+    position: absolute;
+    height: 400px;
+    width: 400px;
+    margin-top: 220px;
+    margin-left: 110px;
+}
+/****************************
+        TABLE PART
+*****************************/
+.table_div{
+    position: absolute;
+    background-color: #ffffff;
+    height: 300px;
+    width: 300px;
+    margin-top: 0px;
+    margin-left: 600px;
+    border-style: solid;
+    border-width: 10px;
+}
