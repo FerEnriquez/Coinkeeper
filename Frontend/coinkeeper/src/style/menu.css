@@ -1,0 +1,28 @@
+@font-face{
+    font-family: 'Raleway';
+    src: url('/src/fonts/ABeeZee-Regular.ttf');
+}
+@font-face{
+    font-family: 'Roboto';
+    src: url('/src/fonts/ABeeZee-Italic.ttf');
+}
+
+body{
+    background-color: #0c1b22;
+}
+
+.slide{
+    background-color: #183441;
+    color: #ffffff;
+    height: 60px;
+    width: 200px;
+}
+.slide:hover{
+    cursor: pointer;
+    background-color: #254d5f;
+}
+.slide:focus{
+    background-color: #254d5f;
+    border: 1px solid;
+    border-color: #0c1b22;
+}
