@@ -9,11 +9,13 @@
 /****************************
         TOTAL PART
 *****************************/
-.total_div {
+.total_part {
     position: absolute;
-    background-color: #e6e6e6;
-    height: 200px;
-    width: 600px;
+    background-color: #363535;
+    height: 150px;
+    width: 500px;
+    margin-left: 400px;
+    margin-top: 100px;
 }
 .total_title {
     font-family: 'Ralewa', Fallbacl, sans-serif;
@@ -26,25 +28,23 @@
     font-size: 50px;
 }
 /****************************
-        CHART PART
+        SEMI TOTAL PART
 *****************************/
-.chart_div{
+.semi_part {
     position: absolute;
-    height: 400px;
+    background-color: #e6e6e6;
+    height: 100px;
     width: 400px;
-    margin-top: 220px;
-    margin-left: 110px;
+    margin-left: 450px;
+    margin-top: 250px;
 }
-/****************************
-        TABLE PART
-*****************************/
-.table_div{
-    position: absolute;
-    background-color: #ffffff;
-    height: 300px;
-    width: 300px;
-    margin-top: 0px;
-    margin-left: 600px;
-    border-style: solid;
-    border-width: 10px;
+.semi_title {
+    font-family: 'Ralewa', Fallbacl, sans-serif;
+    text-align: center;
+    font-size: 40px;
+}
+.semi_number {
+    font-family: 'Ralewa', Fallbacl, sans-serif;
+    text-align: center;
+    font-size: 50px;
 }
