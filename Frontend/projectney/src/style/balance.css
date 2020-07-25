@@ -1,50 +1,75 @@
 @font-face{
-    font-family: 'Raleway';
-    src: url('/src/fonts/ABeeZee-Regular.ttf');
+    font-family: 'Gilroy-ExtraBold';
+    src: url('./fonts/Gilroy-ExtraBold.ttf');
 }
 @font-face{
-    font-family: 'Roboto';
-    src: url('/src/fonts/ABeeZee-Italic.ttf');
+    font-family: 'Gilroy-Light';
+    src: url('./fonts/Gilroy-Light.ttf');
 }
 /****************************
         TOTAL PART
 *****************************/
 .total_part {
-    position: absolute;
-    background-color: #363535;
-    height: 150px;
+    position: relative;
+    background-color: #e6e6e6;
+    height: 100px;
     width: 500px;
     margin-left: 400px;
     margin-top: 100px;
 }
-.total_title {
-    font-family: 'Ralewa', Fallbacl, sans-serif;
-    text-align: center;
-    font-size: 40px;
-}
 .total_number {
-    font-family: 'Ralewa', Fallbacl, sans-serif;
+    font-family: 'Gilroy-ExtraBold' , Verdana, Arial;
     text-align: center;
     font-size: 50px;
+    padding-top: 20px;
 }
 /****************************
         SEMI TOTAL PART
 *****************************/
 .semi_part {
-    position: absolute;
-    background-color: #e6e6e6;
+    position: initial;
+    /* background-color: #e6e6e6; */
     height: 100px;
     width: 400px;
     margin-left: 450px;
-    margin-top: 250px;
-}
-.semi_title {
-    font-family: 'Ralewa', Fallbacl, sans-serif;
-    text-align: center;
-    font-size: 40px;
 }
 .semi_number {
-    font-family: 'Ralewa', Fallbacl, sans-serif;
+    font-family: 'Gilroy-Light', Fallback, sans-serif;
     text-align: center;
-    font-size: 50px;
+    font-size: 30px;
+    color: #c2c2c2;
+}
+/****************************
+        CUENTAS
+*****************************/
+.accounts {
+    /* background-color: #e22a2a; */
+    font-family: 'Gilroy-Light', Fallback, sans-serif;
+    width: 300px;
+    margin-left: 300px;
+    align-items: center;
+    border: 10px solid rgb(221, 221, 221);
+}
+.title_accounts{
+    font-family: 'Gilroy-ExtraBold' , Verdana, Arial;
+    font-size: 20px;
+    text-align: center;
+}
+td {
+    /* border: 1px solid rgb(206, 206, 206); */
+    padding: 10px;
+    padding-right: 58px;
+}
+/****************************
+        INVERSIÓN
+*****************************/
+.invesment {
+    position: relative;
+    /* background-color: #e22a2a; */
+    font-family: 'Gilroy-Light', Fallback, sans-serif;
+    width: 300px;
+    margin-top: -239px;
+    margin-left: 650px;
+    align-items: center;
+    border: 10px solid rgb(221, 221, 221);
 }
