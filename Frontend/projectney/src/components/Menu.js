@@ -5,22 +5,11 @@ import '../style/menu.css'
 class GeneralMenu extends React.Component{
 		render() {
         return(
-            <div>
-                <button class="slide">
-                    Balance
-                </button>
-                <button class="slide">
-                    Month
-                </button>
-                <button class="slide">
-                    Invesment
-                </button>
-                <button class="slide">
-                    Registry
-                </button>
-                <button class="slide">
-                    Goals
-                </button>
+            <div className="bar_menu">
+                <div className="terms">
+                <img className="icon-menu" src={require('../style/icons/open-menu.svg')} alt="Icon"/>
+                <h1 className="title">Proyecto Ney</h1>
+                </div>
             </div>
         );
     }

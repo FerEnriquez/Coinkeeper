@@ -1,12 +1,11 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
-import '../style/balance.css'
+import '../style/balance.css';
 
 class GeneralBalance extends React.Component{
 		render() {
         return(
             <div>
-
                 <div className="total_part">
                     <h1 className="total_number">$ 345,860.20</h1>
                 </div>

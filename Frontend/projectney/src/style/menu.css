@@ -1,32 +1,31 @@
 @font-face{
-    font-family: 'Raleway';
-    src: url('/src/fonts/ABeeZee-Regular.ttf');
+    font-family: 'Gilroy-ExtraBold';
+    src: url('./fonts/Gilroy-ExtraBold.ttf');
 }
 @font-face{
-    font-family: 'Roboto';
-    src: url('/src/fonts/ABeeZee-Italic.ttf');
+    font-family: 'Gilroy-Light';
+    src: url('./fonts/Gilroy-Light.ttf');
 }
 
-body{
-    background-color: #0c1b22;
+
+.terms {
+    display: flex;
+  }
+  
+  .terms > img {
+    margin: 0;
+  }
+.bar_menu{
+    background-color: #dfdfdf;
+}
+.icon-menu{
+    width: 50px;
+    height: 50px;
+    padding: 10px;
 }
 
-.slide{
-    background-color: #183441;
-    color: #ffffff;
-    height: 60px;
-    width: 260px;
-    font-family: 'Ralewa', Fallbacl, sans-serif;
-    text-align: center;
-    font-size: 20px;
-    letter-spacing: 1px;
-}
-.slide:hover{
-    cursor: pointer;
-    background-color: #254d5f;
-}
-.slide:focus{
-    background-color: #254d5f;
-    border: 5px solid;
-    border-color: #ffffff;
+.title{
+    font-family: 'Gilroy-Light', Fallback, sans-serif;
+    text-align: right;
+    border: 1px solid black;
 }
