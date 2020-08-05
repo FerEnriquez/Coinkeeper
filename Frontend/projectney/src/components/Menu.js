@@ -1,6 +1,6 @@
-import React, { Component } from 'react';
+import React from 'react';
 import ReactDOM from 'react-dom';
-import '../style/menu.css'
+import '../style/menu.css';
 
 class GeneralMenu extends React.Component{
 		render() {
@@ -20,7 +20,7 @@ ReactDOM.render(
     document.getElementById('root')
 )
 
-export default function Menu(){
+export default function ControllerMenu(){
     return(
         <div>
             <GeneralMenu />
